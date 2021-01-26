@@ -1,15 +1,13 @@
 {
-  "name": "ol-parcel",
+  "name": "test",
   "version": "1.0.0",
-  "description": "Example using OpenLayers with Parcel",
+  "description": "",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
     "build": "parcel build --public-url . index.html"
   },
-  "dependencies": {
-    "ol": "^5.1.2"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.9.4"
-  }
+  "author": "",
+  "license": "ISC"
 }
